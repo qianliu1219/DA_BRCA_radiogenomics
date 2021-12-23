@@ -142,6 +142,7 @@ df2.to_csv('features.csv')
 
 fea_qt_k=np.reshape(np.transpose(fea_qt),(len(all_img),16,16,16))
 
+##visulization
 for i in xrange(16):
     feak=pd.DataFrame(fea_qt_k[4,:,:,i])
     heat = sns.heatmap(feak, square = True)
