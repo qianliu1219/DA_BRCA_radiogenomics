@@ -1,4 +1,4 @@
-# MRI-genomic mapping of invasve breast carcinoma using stacked deep convolotional denoise autoencoder
+# MRI-genomic mapping of invasive breast carcinoma using stacked deep convolutional denoise autoencoder
 
 This repository is hosting the scource code of the Keras-based denoisie autoencoder and the following radiogenomic assciation analyses.
 
