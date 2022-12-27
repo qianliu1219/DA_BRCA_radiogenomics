@@ -103,6 +103,8 @@ aa=autoencoder.fit(x_train_noisy, x_train,
                 shuffle=True,
                 validation_data=(x_test_noisy, x_test),
                 callbacks=[TensorBoard(log_dir='/tmp/tb', histogram_freq=0, write_graph=False)])
+
+
 all_img = np.reshape(array_all, (len(array_all),xsize,ysize,1))
 decoded_imgs = autoencoder.predict(all_img)
 plt.figure()
